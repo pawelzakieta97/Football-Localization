@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -163,7 +163,8 @@
     <ClCompile Include="Field.cpp" />
     <ClCompile Include="Line2.cpp" />
     <ClCompile Include="Line3.cpp" />
-    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="MelsonParticle.cpp" />
+    <ClCompile Include="ParticleFilter.cpp" />
     <ClCompile Include="Shape2.cpp" />
     <ClCompile Include="Shape3.cpp" />
   </ItemGroup>
@@ -172,7 +173,8 @@
     <ClInclude Include="Field.h" />
     <ClInclude Include="Line2.h" />
     <ClInclude Include="Line3.h" />
-    <ClInclude Include="Particle.h" />
+    <ClInclude Include="MelsonParticle.h" />
+    <ClInclude Include="ParticleFilter.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="Shape2.h" />
     <ClInclude Include="Shape3.h" />

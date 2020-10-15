@@ -2,7 +2,7 @@
 #include <Eigen/Dense>
 #include<iostream>
 #define _USE_MATH_DEFINES
-#include<math.h>
+#include <math.h>
 #include "Camera.h"
 #include "Shape2.h"
 #include "Shape3.h"
@@ -12,7 +12,7 @@
 
 using namespace std;
 using namespace cv;
-using namespace Eigen;
+//using namespace Eigen;
 
 int main()
 {

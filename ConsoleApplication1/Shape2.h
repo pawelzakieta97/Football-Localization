@@ -2,10 +2,11 @@
 #include<opencv2/opencv.hpp>
 #include <Eigen/Dense>
 #include "Line2.h"
+#include "ParticleFilter.h"
 using namespace Eigen;
 using namespace std;
 using namespace cv;
-class Shape2 {
+class Shape2: public Observation{
 public:
     std::vector<Line2> lines;
     Matrix3f pose;
